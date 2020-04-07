@@ -1,8 +1,7 @@
-# Java Projekt-Template fuer OOP, PLAB, SWE und AD
+# Java exercises fuer OOP
 
 ## Zweck
-Dieses Projekt dient in den Modulen OOP/PLAB, AD, SWE, VSK und APPE als Template fuer 
-einfache Java-Projekte. Es nutzt einen auf Apache Maven basierenden (und somit IDE-unabhaengigen) 
+Dieses Projekt dient im Modul OOP als Übungsablage. Es nutzt einen auf Apache Maven basierenden (und somit IDE-unabhaengigen) 
 Build und definiert die dafür notwendige, standardisierte Verzeichnisstruktur. 
 
 ## Enhaltene Libraries (Dependencies)
