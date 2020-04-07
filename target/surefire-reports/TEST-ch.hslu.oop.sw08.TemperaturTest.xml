@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ch.hslu.oop.sw08.TemperaturTest" time="0.014" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/lmettler/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M3/surefire-booter-3.0.0-M3.jar:/home/lmettler/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M3/surefire-api-3.0.0-M3.jar:/home/lmettler/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M3/surefire-logger-api-3.0.0-M3.jar:/home/lmettler/hslu/module/oop/oop_exercises/target/test-classes:/home/lmettler/hslu/module/oop/oop_exercises/target/classes:/home/lmettler/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/home/lmettler/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/home/lmettler/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/lmettler/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/lmettler/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/lmettler/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/lmettler/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/lmettler/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/home/lmettler/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/home/lmettler/.m2/repository/org/junit-pioneer/junit-pioneer/0.3.0/junit-pioneer-0.3.0.jar:/home/lmettler/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.1.9/equalsverifier-3.1.9.jar:/home/lmettler/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.0.0-M3/surefire-junit-platform-3.0.0-M3.jar:/home/lmettler/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M3/common-java5-3.0.0-M3.jar:/home/lmettler/.m2/repository/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk-11.0.4/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/lmettler/hslu/module/oop/oop_exercises/target/surefire 2019-11-27T16-15-59_948-jvmRun1 surefire4163418147458951625tmp surefire_016383535857311227449tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/lmettler/hslu/module/oop/oop_exercises/target/test-classes:/home/lmettler/hslu/module/oop/oop_exercises/target/classes:/home/lmettler/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/home/lmettler/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/home/lmettler/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/lmettler/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/lmettler/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/lmettler/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/lmettler/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/lmettler/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/home/lmettler/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/home/lmettler/.m2/repository/org/junit-pioneer/junit-pioneer/0.3.0/junit-pioneer-0.3.0.jar:/home/lmettler/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.1.9/equalsverifier-3.1.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/lmettler"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/usr/java/jdk-11.0.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/lmettler/hslu/module/oop/oop_exercises"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="lmettler"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.3.11-200.fc30.x86_64"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="deployAtEnd" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="/opt/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/lmettler/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="installAtEnd" value="true"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="/home/lmettler/hslu/module/oop/oop_exercises"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testEqualsFalse" classname="ch.hslu.oop.sw08.TemperaturTest" time="0"/>
+  <testcase name="testEqualsIdentity" classname="ch.hslu.oop.sw08.TemperaturTest" time="0.001"/>
+  <testcase name="equalsVerify" classname="ch.hslu.oop.sw08.TemperaturTest" time="0.01"/>
+  <testcase name="testHastCodeNotequal" classname="ch.hslu.oop.sw08.TemperaturTest" time="0"/>
+  <testcase name="testEqualsNull" classname="ch.hslu.oop.sw08.TemperaturTest" time="0"/>
+  <testcase name="testEqualsTrue" classname="ch.hslu.oop.sw08.TemperaturTest" time="0"/>
+  <testcase name="testEqualsWrongType" classname="ch.hslu.oop.sw08.TemperaturTest" time="0.001"/>
+  <testcase name="testHashCode" classname="ch.hslu.oop.sw08.TemperaturTest" time="0"/>
+</testsuite>
